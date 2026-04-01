@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  auto-close-duplicates:
+  auto-close-duplicates: 
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
